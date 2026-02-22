@@ -8,23 +8,23 @@ Fill in each answer below. Replace `___` with the correct value.
 
 1. HTTP method: GET
 2. Path: /items
-3. Status code (success): ___
-4. Response type (array or object): ___
+3. Status code (success): 200
+4. Response type (array or object): array
 
 ### GET /items/{item_id}
 
-1. Status code (item found): ___
-2. Status code (item not found): ___
+1. Status code (item found): 200
+2. Status code (item not found): 404
 
 ### POST /items
 
-1. HTTP method: ___
-2. Status code (created successfully): ___
+1. HTTP method: post
+2. Status code (created successfully): 201
 
 ### PUT /items/{item_id}
 
-1. HTTP method: ___
-2. Status code (updated successfully): ___
+1. HTTP method: put
+2. Status code (updated successfully): 200
 
 ## Authentication
 
